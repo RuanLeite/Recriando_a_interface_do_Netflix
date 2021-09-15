@@ -1,5 +1,5 @@
 :root{
-    --vermelho: #E50914;
+    --vermelho: rgb(0, 0, 214);
     --preta: #141414;
 }
 
@@ -21,6 +21,7 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-right: 1%;
 }
 
 header .logo{
@@ -28,6 +29,7 @@ header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
+    cursor: pointer;
 }
 
 header nav a{
@@ -45,7 +47,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("/img/capa-tensei_shitara.jpg");
-    height: 400px;
+    height: 600px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -55,12 +57,14 @@ header nav a:hover{
 
 .filme-principal .descricao{
     margin-bottom: 40px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: 0.5%;
 }
 
 .filme-principal .titulo{
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 40px;
+    margin-left: 0.5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -71,7 +75,7 @@ header nav a:hover{
     padding: 15px 30px;
     margin-right: 15px;
     font-size: 12px;
-
+    margin-left: 0.5%;
     cursor: pointer;
     transition: .3s ease all;
 }
@@ -89,6 +93,7 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    cursor: pointer;
 }
 
 .carrosel-filme{
